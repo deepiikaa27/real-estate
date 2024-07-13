@@ -1,0 +1,38 @@
+.listing-form {
+  background-color: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 2px 8px rgba(18, 43, 73, 0.18));
+  border-radius: 16px;
+}
+.listing-header {
+  height: 80px;
+  background-color: rgba(252, 248, 244, 1);
+  border-radius: 16px 16px 0px 0px;
+  border-bottom: 8px solid rgba(214, 214, 214, 1);
+  display: flex;
+  align-items: center;
+}
+.detail-footer {
+  height: 60px;
+  background-color: rgba(18, 43, 73, 1);
+  border-radius: 0px 0px 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.detail-footer small {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+.detail-footer button {
+  width: 110px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(79, 79, 79, 0.2);
+  padding: 12px, 32px;
+  color: white;
+}
+.detail-footer button:hover {
+  border: 1px solid rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,30 @@
+.header-main {
+  min-height: 72px;
+  background-color: #fcf8f4;
+  border: 1px solid #f6efe6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+.vertical {
+  border-left: 2px solid black;
+}
+.nav-links {
+  padding-top: 38px;
+}
+.nav-items {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+}
+.nav-items li {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* font-family: "Inter"; */
+}
+.nav-item-link a {
+  color: #000000;
+}

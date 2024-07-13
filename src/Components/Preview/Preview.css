@@ -1,0 +1,127 @@
+.preview-page {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.pv-t1 {
+  font-size: 23px;
+  font-weight: 400;
+}
+.pv-t2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.pv-img {
+  height: 405px;
+  background-color: rgba(196, 196, 196, 1);
+}
+h2 {
+  font-size: 32px !important;
+  font-weight: 400;
+}
+.review-card {
+  width: 500px;
+  height: 145px;
+}
+.review-name div {
+  font-size: 16px;
+  font-weight: 700;
+}
+.reviews .review {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+  background: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews .review .rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.boder-shadow {
+  box-shadow: 0px 1px 1px black;
+}
+.desc-text div {
+  color: rgba(66, 66, 66, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+.similar-prop {
+  background-color: rgba(253, 250, 247, 1);
+}
+.prop-card {
+  width: 308px;
+  box-shadow: 1px 1px 4px gray;
+}
+.prop-title {
+  background-color: white;
+  padding: 20px 24px;
+}
+.prop-title div:first-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+.prop-title div {
+  font-size: 16px;
+}
+.location {
+  font-size: 13px !important;
+}
+.review-card {
+  font-size: 16px;
+}
+.review-name {
+  font-size: 19px;
+  color: rgba(18, 43, 73, 1);
+}
+button {
+  width: 187px !important;
+  background-color: rgba(18, 43, 73, 1);
+  color: white;
+  height: 36px;
+}
+.overview-text div:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(18, 43, 73, 1) !important;
+}
+.overview-text div {
+  font-size: 14px;
+  color: rgba(122, 122, 122, 1);
+  font-weight: 600;
+}
+.rent-text div:first-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+.rent {
+  background-color: rgba(246, 239, 230, 1);
+}
+.enquiry-form {
+  background-color: rgba(253, 250, 247, 1);
+}
+.enquiry-form div {
+  padding: 7px 0px;
+}
+.enquiry-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.enquiry-person {
+  font-size: 12px;
+  font-weight: 500;
+}
+.enquiry-form input {
+  border: 1px solid rgba(214, 214, 214, 1);
+  border-radius: 4px;
+  box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+.img-footer {
+  background-image: linear-gradient(
+    to right,
+    rgba(77, 75, 75, 0.64),
+    rgba(255, 255, 255, 0.48)
+  );
+}

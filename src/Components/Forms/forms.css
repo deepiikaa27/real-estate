@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.form-body {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 245px;
+  font-family: "Inter", sans-serif !important;
+}
+.details-body {
+  height: 375px;
+}
+.form-body > div {
+  padding: 18px 0px;
+}
+.form-body > div > div {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+}
+span {
+  color: rgba(255, 77, 79, 1);
+  font-weight: 400;
+}
+label {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 400;
+}
+.text-input > div > div {
+  margin: 8px 0px;
+}
+input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgb(122, 122, 122);
+  padding: 0px 10px;
+}
+select {
+  width: 90%;
+  height: 40px;
+  border: 1px solid rgb(122, 122, 122);
+}
+.div-border > div {
+  padding: 10px 25px;
+  border: 1px solid rgba(214, 214, 214, 1);
+  font-size: 14px;
+  border-radius: 30px;
+}
+.description {
+  height: 96px;
+  width: 100%;
+}
+.feature-body > div > div {
+  font-size: 18px;
+  font-family: 600;
+}
+input[type="radio"] {
+  accent-color: rgba(18, 43, 73, 1);
+  height: 16px;
+  width: 16px;
+}
+input[type="checkbox"] {
+  height: 19px;
+  width: 19px;
+}
+.amen-data {
+  height: 138px;
+}
+.amen-data div small {
+  font-size: 14px;
+  color: rgba(122, 122, 122, 1);
+}
+.upload {
+  height: 300px;
+  border: 1px solid gray;
+}
+.add-photo {
+  background-color: rgba(18, 43, 73, 1);
+  height: 40px;
+  width: 176px;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+}
+.submission-title {
+  padding-left: 100px;
+  padding-top: 90px;
+}
+.sb-t1 {
+  font-size: 24px !important;
+}
+.submission-title div {
+  font-size: 16px;
+  font-weight: 400;
+}
+.submission-title button {
+  border-radius: 8px;
+  padding: 12px 32px;
+  background-color: rgba(18, 43, 73, 1);
+  color: white;
+  text-align: center;
+}
